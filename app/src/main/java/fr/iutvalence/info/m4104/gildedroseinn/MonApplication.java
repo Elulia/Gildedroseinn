@@ -40,16 +40,12 @@ public class MonApplication extends Application {
         this.shopList.remove(item);
     }
 
-    public void utilisation (Item item) {
+    public void utiliser (Item item) {
         this.inventoryList.remove(item);
     }
 
     public ArrayList<Item> getInventoryList () {
         return this.inventoryList;
-    }
-
-    public void utiliser (Item item) {
-        this.inventoryList.remove(item);
     }
 
     public ArrayList<Item> getShopList () {
